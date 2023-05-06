@@ -11,9 +11,11 @@ namespace Dominio
         public int ID { get; set; }
         public string Destino { get; set; }
         public string Detalle { get; set; }
+        public string DetalleExtendido { get; set; }
+        public string Servicio { get; set; }
         public int Precio { get; set; }
         public int Alojamiento { get; set; }
         public DateTime Desde { get; set; }
         public DateTime Hasta { get; set; }
-    }
+    } 
 }
